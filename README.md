@@ -1,8 +1,4 @@
-Claro! Aqui está um README baseado no seu `package.json` fornecido:
-
----
-
-# Projeto dbpagi
+# Projeto dbPagi Paginação de banco de dados
 
 Este é o projeto `dbpagi`, que consiste em um front-end e um back-end. O projeto é configurado para facilitar a execução e desenvolvimento das duas partes.
 
