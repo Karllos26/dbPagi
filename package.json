@@ -1,0 +1,13 @@
+{
+  "name": "dbpagi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd back_pagi && npm run dev",
+    "start": "cd front_pagi && npm run dev",
+    "start-api": "cd back_pagi && npm start",
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App{
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.book-table-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  height: ;
+}
+
+table {
+  width: 95vw;
+  height: 1vh; /* 70% da altura da página */
+  margin: 20px auto; /* Centraliza a tabela */
+  border-collapse: collapse;
+  border-radius: 15px; /* Borda arredondada */
+  overflow: hidden; 
+  background-color: #ffffff;
+ color: #000;
+
+}
+
+th, td {
+  padding: 8px; /* Reduz o preenchimento */
+  border: 1px solid #000000;
+  text-align: left;
+  font-size: 12px; /* Aumenta o tamanho da fonte */
+}
+
+th {
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #181818;
+}
+td {
+  background-color: #fff; /* Fundo branco */
+  color: #000; /* Letras pretas */
+  font-weight: bold;
+}
+
+.titulo {
+width: 55%;
+}
+
+.autor {
+  width: 15%;
+}
+
+.isbn {
+  width: 0%;
+}
+
+.paginas{
+  width: 5%;
+}
+
+.ano{
+width: 2%;
+}
+
+.valor {
+  width: 8%;
+}
+
+.pagination-footer {
+  background-color: #444;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+}
+
+.pagination-counter {
+  text-align: center;
+  font-size: 14px;
+  margin: 20px auto;
+  margin-top: 1px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
+  position: fixed; /* Fixa na parte inferior */
+  bottom: 0; /* Posiciona na parte inferior */
+  left: 0;
+  width: 100%; /* Ocupa toda a largura da tela */
+  padding: 10px 0;
+
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  background-color: #ffffff;
+  display: block;
+  font-weight: 700;
+}
+
+.pagination a:hover {
+  background-color: #8d8d8d;
+}
+
+.pagination .active a {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #fff;
+}
+
+.pagination .disabled a {
+  color: #999;
+  pointer-events: none;
+}
