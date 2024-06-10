@@ -17,7 +17,7 @@ Este é o front-end do projeto, desenvolvido com React e Vite.
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/Karllos26/dbPagi.git
    ```
 
 2. Navegue até o diretório do front-end:
